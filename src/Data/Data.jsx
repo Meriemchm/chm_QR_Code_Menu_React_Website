@@ -8,14 +8,14 @@ export const MenuData = [
   },
   {
     id: 2,
-    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1rkxXLIqzjeaOhoKkmhOrx-ieh-nqCdCH8A&s",
+    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmnbulLm8ZKbjOOzygpC1S0Lm_MbpzU-TBTw&s",
     name: "Confiture",
     price: "250da",
     category: "Crêpes & Gaufres",
   },
   {
     id: 3,
-    src: "https://img-3.journaldesfemmes.fr/0Wxj783mDqvLKQ2d5c_KK0JF4KQ=/1500x/smart/76f533c2684f4f10868c11597c4e839f/ccmcms-jdf/31590918.jpg",
+    src: "https://www.croquonslavie.fr/sites/default/files/styles/scale_768_x/public/srh_recipes/ec21d251c1c8094a928c5a9007a12b81.jpeg?itok=RaJEeiUN",
     name: "Nestlé",
     price: "350da",
     category: "Crêpes & Gaufres",
@@ -662,6 +662,5 @@ export const menuLinks = [
     path: "/ice-cream",
     title: "Ice Cream",
     icon: "",
-  }
+  },
 ];
-
