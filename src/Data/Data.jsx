@@ -127,7 +127,7 @@ export const MenuData = [
   },
   {
     id: 21,
-    src: "https://eatingglutenand dairyfree.com/wp-content/uploads/2020/02/EGADFHomemadeoreomilkshake6.jpg",
+    src: "https://eatingglutenanddairyfree.com/wp-content/uploads/2020/02/EGADFHomemadeoreomilkshake6.jpg",
     name: "Oreo",
     price: "450 da",
     category: "Milkshake",
@@ -267,14 +267,14 @@ export const MenuData = [
   },
   {
     id: 41,
-    src: "https://i.pinimg.com/736x/62/a8/8d/62a88 da79460bcbd408a1954d85ffad5.jpg",
+    src: "https://i.pinimg.com/736x/62/a8/8d/62a88da79460bcbd408a1954d85ffad5.jpg",
     name: "Café kinder Chantilly",
     price: "400 da",
     category: "Boissons Chaudes",
   },
   {
     id: 42,
-    src: "https://img.freepik.com/photos-premium/tasse-cappuccino-table- dans-cafe-cafe-boisson-chaude- dans-tasse-ceramique-pour-petit-dejeuner-t_90380-5135.jpg",
+    src: "https://img.freepik.com/photos-premium/tasse-cappuccino-table-dans-cafe-cafe-boisson-chaude- dans-tasse-ceramique-pour-petit-dejeuner-t_90380-5135.jpg",
     name: "Cappuccino",
     price: "250 da",
     category: "Boissons Chaudes",
@@ -344,7 +344,7 @@ export const MenuData = [
   },
   {
     id: 52,
-    src: "https://cdn.lebuteur.com/ data/images/article/thumbs/large-est-il-bon-de-boire-de-leau-gazeuse-tous-les-jours-c4063.jpg",
+    src: "https://cdn.lebuteur.com/data/images/article/thumbs/large-est-il-bon-de-boire-de-leau-gazeuse-tous-les-jours-c4063.jpg",
     name: "Eau Gazeuse",
     price: "70 da",
     category: "Boissons Fraîches",
@@ -505,14 +505,14 @@ export const MenuData = [
   },
   {
     id: 75,
-    src: "https://empreintesucree.fr/wp-content/uploads/2018/02/1-fon dant-chocolat-recette-patisserie-empreinte-sucree-1.jpg",
+    src: "https://empreintesucree.fr/wp-content/uploads/2018/02/1-fondant-chocolat-recette-patisserie-empreinte-sucree-1.jpg",
     name: "Fon dant Chocolat",
     price: "350 da",
     category: "Gâteaux & Desserts",
   },
   {
     id: 76,
-    src: "https://media-cdn.tripadvisor.com/media/photo-s/19/75/8a/6a/fon dant-au-chocolat-et.jpg",
+    src: "https://media-cdn.tripadvisor.com/media/photo-s/19/75/8a/6a/fondant-au-chocolat-et.jpg",
     name: "Fon dant Glace Vanille",
     price: "650 da",
     category: "Gâteaux & Desserts",
