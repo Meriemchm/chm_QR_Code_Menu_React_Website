@@ -1,9 +1,14 @@
 import React from "react";
+import NavBar from "./NavBar/NavBar";
+import Menu from "./Menu/Menu";
+import NavBarMenu from "./NavBarMenu/NavBarMenu";
 
 const App = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline text-red-500">Hello world!</h1>
+      <NavBar />
+      <NavBarMenu />
+      <Menu />
     </div>
   );
 };
