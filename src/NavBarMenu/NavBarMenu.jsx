@@ -32,7 +32,7 @@ const NavBarMenu = () => {
             return (
               <div key={id} onClick={() => handleClick(id)}>
                 <li
-                  className={`flex justify-center items-center w-44 rounded-lg cursor-pointer p-3 border mr-2  
+                  className={`flex justify-center items-center w-48 rounded-lg cursor-pointer p-3 border mr-2  
                   ${active[id] ? activeBorder : ""}`}
                 >
                   <p
