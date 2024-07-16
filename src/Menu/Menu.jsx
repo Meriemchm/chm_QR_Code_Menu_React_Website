@@ -11,7 +11,7 @@ const Menu = ({ title }) => {
           return (
             <div
               key={id}
-              className="flex flex-row border-b border-white py-5 w-80 md:w-96"
+              className="flex flex-row border-b border-white py-5  md:w-96"
             >
               <img
                 src={src}
