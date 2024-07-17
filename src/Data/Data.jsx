@@ -73,7 +73,7 @@ export const MenuData = [
     id: 12,
     src: "https://img.cuisineaz.com/660x660/2013/12/20/i47652-pancakes.jpeg",
     name: "Miel",
-    price: "350 da",
+    price: "450 da",
     category: "Pancakes",
   },
   {
