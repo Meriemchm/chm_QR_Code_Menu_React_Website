@@ -113,7 +113,7 @@ export const MenuData = [
   },
   {
     id: 19,
-    src: "milkshake/Bounty-Milkshake-9.jpg",
+    src: "milkshake/bountymilk.png",
     name: "Bounty",
     price: "500 da",
     category: "Milkshake",
@@ -127,14 +127,14 @@ export const MenuData = [
   },
   {
     id: 22,
-    src: "milkshake/Snickers-milkshake-recipe.jpg",
+    src: "milkshake/snickersmilkshake.png",
     name: "Snickers",
     price: "500 da",
     category: "Milkshake",
   },
   {
     id: 87,
-    src: "milkshake/milkshake-kinder-bueno.jpg",
+    src: "milkshake/buenomilkshake.png",
     name: "bueno",
     price: "600 da",
     category: "Milkshake",
@@ -400,7 +400,7 @@ export const MenuData = [
   },
   {
     id: 45,
-    src: "",
+    src: "boissons_chaudes/chocolat-au-lait-avec-guimauves.jpg",
     name: "Choco surprise",
     price: "350 da",
     category: "Boissons Chaudes",
@@ -659,7 +659,7 @@ export const MenuData = [
   },
   {
     id: 81,
-    src: "ice_cream/Untitled-design-500x375.jpg",
+    src: "ice_cream/affagato.png",
     name: "Café Affogato",
     price: "350 da",
     category: "Ice Cream",
