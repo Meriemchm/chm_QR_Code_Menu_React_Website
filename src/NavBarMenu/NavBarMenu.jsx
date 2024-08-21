@@ -30,8 +30,8 @@ const NavBarMenu = () => {
         <ul className="flex flex-row  select-none py-3 px-5  ">
           {menuLinks.map((item, id) => {
             return (
-              <div key={id} onClick={() => handleClick(id)}>
-                <li
+              <li key={id} onClick={() => handleClick(id)}>
+                <div
                   className={`flex justify-center items-center w-48 rounded-lg cursor-pointer p-3 border mr-2  
                   ${active[id] ? activeBorder : ""}`}
                 >
@@ -43,8 +43,8 @@ const NavBarMenu = () => {
                     {" "}
                     {item.title}
                   </p>
-                </li>
-              </div>
+                </div>
+              </li>
             );
           })}
         </ul>
