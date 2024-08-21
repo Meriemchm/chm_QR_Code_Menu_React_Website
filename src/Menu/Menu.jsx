@@ -17,6 +17,7 @@ const Menu = ({ title }) => {
                 src={src}
                 alt=""
                 className="rounded-md w-44 h-32 object-cover mt-5"
+                loading="lazy"
               />
 
               <div className="flex flex-col items-start justify-start text-gray-800 mx-5 my-4 ">
