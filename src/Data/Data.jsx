@@ -668,7 +668,7 @@ export const MenuData = [
   },
   {
     id: 82,
-    src: "ice_cream/img-RDN4ZfjtP5hB22jQgDlEB.jpeg",
+    src: "ice_cream/cafeaffogatochantilly.png",
     name: "Café Affogato Chantilly",
     price: "400 da",
     category: "Ice Cream",
