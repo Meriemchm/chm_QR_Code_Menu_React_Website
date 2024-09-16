@@ -28,6 +28,13 @@ export const MenuData = [
     category: "Crêpes & Gaufres",
   },
   {
+    id: 7,
+    src: "crepes_gaufres/crepes-au-miel-aux-noix-de-pin-et-a-la-creme-fraiche-59c90933.jpg",
+    name: "Miel",
+    price: "400 da",
+    category: "Crêpes & Gaufres",
+  },
+  {
     id: 5,
     src: "crepes_gaufres/crepe-milka.jpeg",
     name: "Milka",
@@ -36,28 +43,22 @@ export const MenuData = [
   },
   {
     id: 6,
-    src: "crepes_gaufres/gaufre-banana-chocolat.jpg",
+    src: "crepes_gaufres/i69738-gaufres-express-chocolat-banane.jpg",
     name: "Nutella Banane",
     price: "450 da",
     category: "Crêpes & Gaufres",
   },
-  {
-    id: 7,
-    src: "crepes_gaufres/crepes-au-miel-aux-noix-de-pin-et-a-la-creme-fraiche-59c90933.jpg",
-    name: "Miel",
-    price: "400 da",
-    category: "Crêpes & Gaufres",
-  },
+
   {
     id: 8,
-    src: "crepes_gaufres/gauffre-fruit.jpeg",
+    src: "crepes_gaufres/fraise-gaufre-mascarpone.jpg",
     name: "Fruits",
     price: "550 da",
     category: "Crêpes & Gaufres",
   },
   {
     id: 9,
-    src: "crepes_gaufres/340.jpg",
+    src: "crepes_gaufres/crepe-gourmande.jpg",
     name: "Gourmande",
     price: "650 da",
     category: "Crêpes & Gaufres",
@@ -65,7 +66,7 @@ export const MenuData = [
   /*Pancakes*/
   {
     id: 11,
-    src: "pancakes/trop-bons-nos-pancakes.jpeg",
+    src: "pancakes/american-pancakes-met-mascarpone-f2891f6f-1e1e86ca.jpg",
     name: "Confiture",
     price: "350 da",
     category: "Pancakes",
@@ -100,7 +101,7 @@ export const MenuData = [
   },
   {
     id: 16,
-    src: "pancakes/Fruity-Pancakes.jpg",
+    src: "pancakes/Pancakes-1.jpg",
     name: "Fruits",
     price: "550 da",
     category: "Pancakes",
@@ -113,48 +114,6 @@ export const MenuData = [
     category: "Pancakes",
   },
   /*Milkshake*/
-  {
-    id: 19,
-    src: "milkshake/bountymilk.png",
-    name: "Bounty",
-    price: "500 da",
-    category: "Milkshake",
-  },
-  {
-    id: 20,
-    src: "milkshake/Twix-Milkshake_final.jpeg",
-    name: "Twix",
-    price: "500 da",
-    category: "Milkshake",
-  },
-  {
-    id: 22,
-    src: "milkshake/snickersmilkshake.png",
-    name: "Snickers",
-    price: "500 da",
-    category: "Milkshake",
-  },
-  {
-    id: 87,
-    src: "milkshake/buenomilkshake.png",
-    name: "bueno",
-    price: "600 da",
-    category: "Milkshake",
-  },
-  // {
-  //   id: 21,
-  //   src: "https://eatingglutenanddairyfree.com/wp-content/uploads/2020/02/EGADFHomemadeoreomilkshake6.jpg",
-  //   name: "Oreo",
-  //   price: "600 da",
-  //   category: "Milkshake",
-  // },
-  {
-    id: 99,
-    src: "milkshake/nutella-milkshake-recipe-3-ingredients.jpg",
-    name: "Nutella",
-    price: "450 da",
-    category: "Milkshake",
-  },
   {
     id: 88,
     src: "milkshake/strawberrybananamilkshake-9.jpg",
@@ -184,10 +143,17 @@ export const MenuData = [
     category: "Milkshake",
   },
   {
-    id: 90,
-    src: "milkshake/fcea26_a2dc77318cee4f05aac516841016e807~mv2.jpg",
-    name: "Ananas",
-    price: "450 da",
+    id: 95,
+    src: "milkshake/salted-caramel-milkshake-3.jpg",
+    name: "Caramel",
+    price: "350 da",
+    category: "Milkshake",
+  },
+  {
+    id: 98,
+    src: "milkshake/800-1.jpg",
+    name: "Café",
+    price: "350 da",
     category: "Milkshake",
   },
   {
@@ -197,20 +163,6 @@ export const MenuData = [
     price: "400 da",
     category: "Milkshake",
   },
-  // {
-  //   id: 92,
-  //   src: "https://sweetlycakes.com/wp-content/uploads/2022/07/milkshakeoreo-9.jpg",
-  //   name: "Oreo banane",
-  //   price: "500 da",
-  //   category: "Milkshake",
-  // },
-  {
-    id: 91,
-    src: "milkshake/i129442-smoothie-nutella-banane.jpg",
-    name: "Nutella banane",
-    price: "500 da",
-    category: "Milkshake",
-  },
   {
     id: 94,
     src: "milkshake/caramel-milkshake-image-square.jpg",
@@ -218,18 +170,47 @@ export const MenuData = [
     price: "400 da",
     category: "Milkshake",
   },
-  // {
-  //   id: 100,
-  //   src: "https://media-cdn.tripadvisor.com/media/photo-s/1c/01/f9/1e/oreo-milkshake.jpg",
-  //   name: "Café oreo",
-  //   price: "450 da",
-  //   category: "Milkshake",
-  // },
   {
-    id: 95,
-    src: "milkshake/salted-caramel-milkshake-3.jpg",
-    name: "Caramel",
-    price: "350 da",
+    id: 99,
+    src: "milkshake/nutella-milkshake-recipe-3-ingredients.jpg",
+    name: "Nutella",
+    price: "450 da",
+    category: "Milkshake",
+  },
+
+  {
+    id: 90,
+    src: "milkshake/fcea26_a2dc77318cee4f05aac516841016e807~mv2.jpg",
+    name: "Ananas",
+    price: "450 da",
+    category: "Milkshake",
+  },
+  {
+    id: 19,
+    src: "milkshake/bountymilk.png",
+    name: "Bounty",
+    price: "500 da",
+    category: "Milkshake",
+  },
+  {
+    id: 20,
+    src: "milkshake/Twix-Milkshake_final.jpeg",
+    name: "Twix",
+    price: "500 da",
+    category: "Milkshake",
+  },
+  {
+    id: 22,
+    src: "milkshake/snickersmilkshake.png",
+    name: "Snickers",
+    price: "500 da",
+    category: "Milkshake",
+  },
+  {
+    id: 91,
+    src: "milkshake/i129442-smoothie-nutella-banane.jpg",
+    name: "Nutella banane",
+    price: "500 da",
     category: "Milkshake",
   },
   {
@@ -247,12 +228,40 @@ export const MenuData = [
     category: "Milkshake",
   },
   {
-    id: 98,
-    src: "milkshake/800-1.jpg",
-    name: "Café",
-    price: "350 da",
+    id: 87,
+    src: "milkshake/buenomilkshake.png",
+    name: "bueno",
+    price: "600 da",
     category: "Milkshake",
   },
+  // {
+  //   id: 21,
+  //   src: "https://eatingglutenanddairyfree.com/wp-content/uploads/2020/02/EGADFHomemadeoreomilkshake6.jpg",
+  //   name: "Oreo",
+  //   price: "600 da",
+  //   category: "Milkshake",
+  // },
+
+
+  // {
+  //   id: 92,
+  //   src: "https://sweetlycakes.com/wp-content/uploads/2022/07/milkshakeoreo-9.jpg",
+  //   name: "Oreo banane",
+  //   price: "500 da",
+  //   category: "Milkshake",
+  // },
+
+
+  // {
+  //   id: 100,
+  //   src: "https://media-cdn.tripadvisor.com/media/photo-s/1c/01/f9/1e/oreo-milkshake.jpg",
+  //   name: "Café oreo",
+  //   price: "450 da",
+  //   category: "Milkshake",
+  // },
+
+
+
   {
     id: 24,
     src: "cafe_frappe/cafe-frappe-grec.png",
@@ -296,13 +305,6 @@ export const MenuData = [
     category: "Cheesecake",
   },
   {
-    id: 30,
-    src: "cheesecake/1704453428_recette-de-cheesecake-au-mars-et-sauce-caramel-plaisir-gourmand-garantie-1-1024x701.jpg",
-    name: "Cheesecake gourmand",
-    price: "400 da",
-    category: "Cheesecake",
-  },
-  {
     id: 31,
     src: "cheesecake/nutella-cheesecake-12-500x500.jpg",
     name: "Cheesecake nutella",
@@ -310,10 +312,39 @@ export const MenuData = [
     category: "Cheesecake",
   },
   {
+    id: 30,
+    src: "cheesecake/1704453428_recette-de-cheesecake-au-mars-et-sauce-caramel-plaisir-gourmand-garantie-1-1024x701.jpg",
+    name: "Cheesecake gourmand",
+    price: "400 da",
+    category: "Cheesecake",
+  },
+
+  {
     id: 32,
     src: "boissons_chaudes/lait.png",
     name: "Lait",
     price: "100 da",
+    category: "Boissons Chaudes",
+  },
+  {
+    id: 38,
+    src: "boissons_chaudes/SES-cafe-au-lait-recipe-1374920-hero-01-b1463e806a7947e7b8b17979ab70eab3.jpg",
+    name: "Café au lait",
+    price: "150 da",
+    category: "Boissons Chaudes",
+  },
+  {
+    id: 35,
+    src: "boissons_chaudes/eyJidWNrZXQiOiJhZGMtZGV2LWltYWdlcy1yZWNpcGVzIiwia2V5IjoicmVwX2x2XzIyOTIzXzIzMDg5X2Nob2NvbGF0X2NoYXVkX2xhaXRfY2FubmVsbGUuanBnIiwiZWRpdHMiOnsianBlZyI6eyJxdWFsaXR5Ijo4MH0sInBuZy.jpeg",
+    name: "Lait chocolat",
+    price: "200 da",
+    category: "Boissons Chaudes",
+  },
+  {
+    id: 37,
+    src: "boissons_chaudes/i101986-cafe-nu.jpg",
+    name: "Maxwell / Nescafé",
+    price: "200 da",
     category: "Boissons Chaudes",
   },
   {
@@ -330,53 +361,12 @@ export const MenuData = [
     price: "250 da",
     category: "Boissons Chaudes",
   },
-  {
-    id: 35,
-    src: "boissons_chaudes/eyJidWNrZXQiOiJhZGMtZGV2LWltYWdlcy1yZWNpcGVzIiwia2V5IjoicmVwX2x2XzIyOTIzXzIzMDg5X2Nob2NvbGF0X2NoYXVkX2xhaXRfY2FubmVsbGUuanBnIiwiZWRpdHMiOnsianBlZyI6eyJxdWFsaXR5Ijo4MH0sInBuZy.jpeg",
-    name: "Lait chocolat",
-    price: "200 da",
-    category: "Boissons Chaudes",
-  },
+
   {
     id: 36,
     src: "boissons_chaudes/chocolat-chaud-chantilly-et-speculoos.jpeg",
     name: "Chocolat chantilly",
     price: "250 da",
-    category: "Boissons Chaudes",
-  },
-  {
-    id: 37,
-    src: "boissons_chaudes/i101986-cafe-nu.jpg",
-    name: "Maxwell / Nescafé",
-    price: "200 da",
-    category: "Boissons Chaudes",
-  },
-  {
-    id: 38,
-    src: "boissons_chaudes/SES-cafe-au-lait-recipe-1374920-hero-01-b1463e806a7947e7b8b17979ab70eab3.jpg",
-    name: "Café au lait",
-    price: "150 da",
-    category: "Boissons Chaudes",
-  },
-  {
-    id: 39,
-    src: "boissons_chaudes/cafe_viennois_1_1024x1024.jpg",
-    name: "Café viennois",
-    price: "300 da",
-    category: "Boissons Chaudes",
-  },
-  {
-    id: 40,
-    src: "boissons_chaudes/cafekindermaxi.png",
-    name: "Café kinder maxi",
-    price: "350 da",
-    category: "Boissons Chaudes",
-  },
-  {
-    id: 41,
-    src: "boissons_chaudes/62a88da79460bcbd408a1954d85ffad5.jpg",
-    name: "Café kinder Chantilly",
-    price: "400 da",
     category: "Boissons Chaudes",
   },
   {
@@ -401,6 +391,13 @@ export const MenuData = [
     category: "Boissons Chaudes",
   },
   {
+    id: 39,
+    src: "boissons_chaudes/cafe_viennois_1_1024x1024.jpg",
+    name: "Café viennois",
+    price: "300 da",
+    category: "Boissons Chaudes",
+  },
+  {
     id: 45,
     src: "boissons_chaudes/chocolat-au-lait-avec-guimauves.jpg",
     name: "Choco surprise",
@@ -414,6 +411,23 @@ export const MenuData = [
     price: "350 da",
     category: "Boissons Chaudes",
   },
+
+
+  {
+    id: 40,
+    src: "boissons_chaudes/cafekindermaxi.png",
+    name: "Café kinder maxi",
+    price: "350 da",
+    category: "Boissons Chaudes",
+  },
+  {
+    id: 41,
+    src: "boissons_chaudes/62a88da79460bcbd408a1954d85ffad5.jpg",
+    name: "Café kinder Chantilly",
+    price: "400 da",
+    category: "Boissons Chaudes",
+  },
+
   {
     id: 47,
     src: "boissons_chaudes/chocolat-chaud-vegan-healthy_alie-2954-72dpi.jpg",
@@ -569,13 +583,6 @@ export const MenuData = [
     category: "Gâteaux & Desserts",
   },
   {
-    id: 69,
-    src: "gateaux_desserts/painauxresains.png",
-    name: "Pain aux raisins",
-    price: "200 da",
-    category: "Gâteaux & Desserts",
-  },
-  {
     id: 70,
     src: "gateaux_desserts/croissantnutella.png",
     name: "Croissant Nutella",
@@ -583,16 +590,23 @@ export const MenuData = [
     category: "Gâteaux & Desserts",
   },
   {
-    id: 71,
-    src: "gateaux_desserts/croissantgourmand.png",
-    name: "Croissant Gourmand",
-    price: "350 da",
+    id: 69,
+    src: "gateaux_desserts/painauxresains.png",
+    name: "Pain aux raisins",
+    price: "200 da",
     category: "Gâteaux & Desserts",
   },
   {
     id: 72,
     src: "gateaux_desserts/mousseauchocolat.png",
     name: "Mousse au Chocolat",
+    price: "250 da",
+    category: "Gâteaux & Desserts",
+  },
+  {
+    id: 77,
+    src: "gateaux_desserts/Brownies-Recipe-Video.jpg",
+    name: "Brownie",
     price: "250 da",
     category: "Gâteaux & Desserts",
   },
@@ -618,24 +632,19 @@ export const MenuData = [
     category: "Gâteaux & Desserts",
   },
   {
+    id: 71,
+    src: "gateaux_desserts/croissantgourmand.png",
+    name: "Croissant Gourmand",
+    price: "350 da",
+    category: "Gâteaux & Desserts",
+  },
+
+
+  {
     id: 76,
     src: "gateaux_desserts/fondant-au-chocolat-et.jpg",
     name: "Fondant Glace Vanille",
     price: "400 da",
-    category: "Gâteaux & Desserts",
-  },
-  {
-    id: 86,
-    src: "gateaux_desserts/fondant-au-chocolat-et.jpg",
-    name: "Fondant Havana",
-    price: "650 da",
-    category: "Gâteaux & Desserts",
-  },
-  {
-    id: 77,
-    src: "gateaux_desserts/Brownies-Recipe-Video.jpg",
-    name: "Brownie",
-    price: "250 da",
     category: "Gâteaux & Desserts",
   },
   {
@@ -653,12 +662,13 @@ export const MenuData = [
     category: "Gâteaux & Desserts",
   },
   {
-    id: 80,
-    src: "ice_cream/5756a137043eb2e0d6556501473226f8.jpg",
-    name: "Coupe De Glace",
-    price: "400 da",
-    category: "Ice Cream",
+    id: 86,
+    src: "gateaux_desserts/fondant-au-chocolat-et.jpg",
+    name: "Fondant Havana",
+    price: "650 da",
+    category: "Gâteaux & Desserts",
   },
+
   {
     id: 81,
     src: "ice_cream/affagato.png",
@@ -666,6 +676,14 @@ export const MenuData = [
     price: "350 da",
     category: "Ice Cream",
   },
+  {
+    id: 80,
+    src: "ice_cream/5756a137043eb2e0d6556501473226f8.jpg",
+    name: "Coupe De Glace",
+    price: "400 da",
+    category: "Ice Cream",
+  },
+
   {
     id: 82,
     src: "ice_cream/cafeaffogatochantilly.png",
