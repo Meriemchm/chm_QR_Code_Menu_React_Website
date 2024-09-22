@@ -373,14 +373,14 @@ export const MenuData = [
     id: 42,
     src: "boissons_chaudes/capuccino.png",
     name: "Cappuccino",
-    price: "250 da",
+    price: "300 da",
     category: "Boissons Chaudes",
   },
   {
     id: 43,
     src: "boissons_chaudes/54f7391aee79faf2ff5427a47e58c800.jpg",
     name: "Cappuccino Choco",
-    price: "300 da",
+    price: "350 da",
     category: "Boissons Chaudes",
   },
   {
