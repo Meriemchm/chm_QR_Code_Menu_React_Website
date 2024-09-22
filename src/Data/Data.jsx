@@ -376,13 +376,7 @@ export const MenuData = [
     price: "300 da",
     category: "Boissons Chaudes",
   },
-  {
-    id: 43,
-    src: "boissons_chaudes/54f7391aee79faf2ff5427a47e58c800.jpg",
-    name: "Cappuccino Choco",
-    price: "350 da",
-    category: "Boissons Chaudes",
-  },
+
   {
     id: 44,
     src: "boissons_chaudes/Latte-macchiato-Lilie-Bakery-1024x1534.jpg",
@@ -395,6 +389,13 @@ export const MenuData = [
     src: "boissons_chaudes/cafe_viennois_1_1024x1024.jpg",
     name: "Café viennois",
     price: "300 da",
+    category: "Boissons Chaudes",
+  },
+  {
+    id: 43,
+    src: "boissons_chaudes/54f7391aee79faf2ff5427a47e58c800.jpg",
+    name: "Cappuccino Choco",
+    price: "350 da",
     category: "Boissons Chaudes",
   },
   {
